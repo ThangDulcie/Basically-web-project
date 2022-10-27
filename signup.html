@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/signup.css" type="text/css">
+</head>
+<body>
+    <div class="background">
+      <form action="abc.html" method="get" onsubmit="return condition()" class="login">
+        <div class="container">
+          <button class="hide_button" onclick="hide_form()" id="hide"><div class="fa fa-times"></div></button>
+          <h2 id ="t1" onclick="changet1()">REGISTER</h2>
+          <p>Please fill this form to create an account.</p>
+          <hr>
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter your email" name="email" id="email">
+          
+          
+          <label for="psw"><b>Password</b></label>
+          <input type="password" name="psw" id="psw" placeholder="Enter your password">
+          
+          
+          <label for="psw-repeat"><b>Repeat your password</b></label>
+          <input type="password" name="psw-repeat" id="psw-repeat" placeholder="Repeat your password" >
+          
+          <label for="sex"><b>Sex: </b></label>
+          <label for="sex1">Male</label>
+          <input type="radio" id="sex1" name="sex" >
+          <label for="sex2">Female</label>
+          <input type="radio" id="sex2" name="sex" >
+
+          <p><b>Hobby:</b></p>
+          <label for="hoppy1">Watch TV</label>
+          <input type="checkbox" id="hoppy1" name="hobby1" value="Watch TV">
+          <label for="hobby2">Watch Movie</label>
+          <input type="checkbox" id="hobby2" name="hobby2" value="Watch Movie">
+          <label for="hobby3">Other Hobby</label>
+          <input type="checkbox" id="hoppy3" name="hobby3" value="Other Hobby">
+          <label for="color"><br>Enter your favorite color</label>
+          <input type="color" id="color" name="color">
+          <label for="birthday"><br>Enter your birthday</label>
+          <input type="date" id="birthday" name="birthday">
+          
+          <label for="rsbtn"><b><br>Reset infor</b></label>
+          <input type="reset" name="rsbtn" id="rsbtn">
+          <hr>
+          <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+          <button type="submit" class="registerbtn">Register</button>
+          
+        </div>
+        <div class="container signin">
+          <p>Already an account? <a href="signin.html">Sign in</a>.</p>
+        </div>
+      </form>
+      
+    </div>
+    
+    <script src="js/signup.js"></script>
+</body>
+</html>

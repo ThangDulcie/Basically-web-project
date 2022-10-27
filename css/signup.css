@@ -1,0 +1,73 @@
+.background{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border: none;
+    display: flex;
+  }
+  .login{
+    width: 50%;
+    height: auto;
+    margin: 100px auto;
+    background-color: white;
+    position: relative;
+  }
+  .container{
+    padding: 50px;
+    display: block;
+  }
+  .hide_button{
+    width: 40px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+  }
+  .hide_button:hover{
+    background:red;
+  }
+  .signin{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  input[type=text], input[type=password]{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  input[type=radio], input[type=checkbox],input[type=reset],input[type=color], input[date]{
+    margin: 20px 20px 20px 10px;
+  }
+  .registerbtn{
+    background-color: greenyellow;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    opacity: 0.5;
+  }
+  .registerbtn:hover{
+    opacity: 1;
+  }
+  a{
+    color: dodgerblue;
+  }
+  .exit{
+    position: absolute;
+    font-size: 30px;
+    border-radius: 100%;
+    right: 5px;
+    top: 5px;
+  }
